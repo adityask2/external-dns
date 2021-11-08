@@ -3,14 +3,14 @@ entries:
   external-dns:
   - annotations:
       artifacthub.io/changes: |
-        - kind: added
-          description: Initial official release.
+        - kind: changed
+          description: "Cluster role permissions are now only added for enabled sources"
     apiVersion: v2
-    appVersion: 0.9.0
-    created: "2021-08-19T16:41:48.848776558Z"
+    appVersion: 0.10.1
+    created: "2021-11-08T06:48:12.442810252Z"
     description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses
       with DNS providers.
-    digest: 49b886cb1448fe5a08424a463f35f596639507385a01f6d12312cdc79115adfe
+    digest: 56282f6177c929dce5862b1405630a26e72f695f27de318296cda3f191c44c5b
     home: https://github.com/kubernetes-sigs/external-dns/
     icon: https://github.com/kubernetes-sigs/external-dns/raw/master/img/external-dns.png
     keywords:
@@ -25,6 +25,6 @@ entries:
     - https://github.com/kubernetes-sigs/external-dns/
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/external-dns/releases/download/external-dns-helm-chart-1.2.0/external-dns-1.2.0.tgz
-    version: 1.2.0
-generated: "2021-08-19T16:41:48.848784158Z"
+    - https://github.com/adityask2/external-dns/releases/download/external-dns-helm-chart-1.5.0/external-dns-1.5.0.tgz
+    version: 1.5.0
+generated: "2021-11-08T06:48:12.442816952Z"
